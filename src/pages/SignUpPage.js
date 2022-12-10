@@ -37,6 +37,7 @@ class Signup extends Component {
         headers: {
           Accept: "application/json",
           "Content-Type": "application/json",
+          "Access-Control-Allow-Origin": "*", // Required for CORS support to work
           //URLSearchParams:
         },
         body: JSON.stringify({
